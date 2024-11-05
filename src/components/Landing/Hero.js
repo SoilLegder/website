@@ -78,11 +78,11 @@ const Hero = () => {
             </div>
 
             <div className="container-fluid m-0 p-0 d-lg-none">
-                <div className="hero-style1">
-                    <div className="row flex-row-reverse">
+                <div className="hero-style1 py-0 px-0">
+                    <div className="row flex-row-reverse py-2">
                         {/* Video thumbnail for small screens */}
                         <div className="col-lg-3 d-lg-none">
-                            <div className="hero-thumb alltouchtopdown mb-5 justify-content-center">
+                            <div className="hero-thumb1 alltouchtopdown mb-5 justify-content-center">
                                 <video 
                                     autoPlay 
                                     loop 
@@ -93,11 +93,11 @@ const Hero = () => {
                                         maxWidth: '100%',
                                         height: '100%',
                                         objectFit: 'cover',
-                                        transform: 'perspective(1000px) rotateY(-5deg)',
+                                        // transform: 'perspective(1000px) rotateY(-5deg)',
                                         transition: 'transform 0.3s ease-in-out'
                                     }}
                                 >
-                                    <source src="/videos/soilledger6.mp4" type="video/mp4" />
+                                    <source src="https://res.cloudinary.com/dagq1id2g/video/upload/v1739104262/d18l3hkswvbzpr5i68gu.mp4" type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
